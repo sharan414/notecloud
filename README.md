@@ -20,7 +20,7 @@ It supports **user authentication**, **cloud sync**, and allows users to **add, 
 
 | Login Page | Dashboard |
 |------------|-----------|
-| ![Login](screenshots/notecloud%20login.png) | ![Dashboard](screenshots/notecloud%20dashboard.png) |
+| ![Login](screenshots/notecloud_login.png) | ![Dashboard](screenshots/notecloud_dashboard.png) |
 
 ---
 
