@@ -1,10 +1,25 @@
 from flask import Flask, render_template, request, redirect, session, flash, url_for
-import pyrebase
+import pyrebase  # ✅ still works since pyrebase4 uses same name
 import json
 from datetime import datetime
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'
+
+firebaseConfig = {
+    "apiKey": "AIzaSyDFF0ahXjBe_cRI1zduwcKmY4SKaDfAUaA",
+  "authDomain": "notecloud-32840.firebaseapp.com",
+  "databaseURL": "https://notecloud-32840-default-rtdb.firebaseio.com/",
+  "projectId": "notecloud-32840",
+  "storageBucket": "notecloud-32840.appspot.com",
+  "messagingSenderId": "946455754786",
+  "appId": "1:946455754786:web:c05b8aecf34a65eb44f27b"
+}
+
+firebase = pyrebase.initialize_app(firebaseConfig)
+auth = firebase.auth()
+db = firebase.database()
+storage = firebase.storage()
 
 # Load Firebase config
 with open("firebase_config.json") as f:
