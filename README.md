@@ -16,6 +16,14 @@ It supports **user authentication**, **cloud sync**, and allows users to **add, 
 
 ---
 
+# 🗒️ NoteCloud
+
+**NoteCloud** is a cloud-based note-taking app built with **Flask** and powered by **Firebase**. It allows users to create, manage, and securely store their notes online, with email + password authentication.
+
+🔗 **Live Demo**: [https://notecloud-lu6i.onrender.com](https://notecloud-lu6i.onrender.com)
+
+---
+
 ## 🖼️ Screenshots
 
 | Login Page | Dashboard |
