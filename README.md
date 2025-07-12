@@ -18,11 +18,9 @@ It supports **user authentication**, **cloud sync**, and allows users to **add, 
 
 ## 🖼️ Screenshots
 
-> *(Add your screenshots in the `/screenshots` folder and link here)*
-
 | Login Page | Dashboard |
 |------------|-----------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](screenshots/notecloud%20login.png) | ![Dashboard](screenshots/notecloud%20dashboard.png) |
 
 ---
 
